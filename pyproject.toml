@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "colour me bot"
+version = "0.1.0"
+description = ""
+authors = ["Lenny Critchley <LennyPhoenixC@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+"discord.py" = "^2.0.1"
+topggpy = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
